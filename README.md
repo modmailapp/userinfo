@@ -49,4 +49,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors
 
-* **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [ionadev](https://github.com/officialpiyush)
+* **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [Piyush](https://github.com/officialpiyush)
