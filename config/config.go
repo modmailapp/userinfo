@@ -1,10 +1,10 @@
 package config
 
 import (
-"encoding/json"
-"io/ioutil"
-"log"
-"os"
+	"encoding/json"
+	"io/ioutil"
+	"log"
+	"os"
 )
 
 var config map[string]string
