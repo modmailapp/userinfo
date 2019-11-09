@@ -1,12 +1,3 @@
-[[constraint]]
-   name = "github.com/modmailapp/userinfo"
-   version = "1.0.0"
-
-[[constraint]]
-   name = "userinfo-api"
-   branch = "master"
-   source = "github.com/modmailapp/userinfo"
-
 [prune]
   go-tests = true
   unused-packages = true
