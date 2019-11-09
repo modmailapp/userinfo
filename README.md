@@ -13,10 +13,6 @@
   </a>
 <br>
 <a href="https://github.com/modmailapp/userinfo">
-<img src="https://img.shields.io/codacy/grade/65d316633e8f403795058b2deef6ffb5.svg?style=for-the-badge">
-</a>
-<br>
-<a href="https://github.com/modmailapp/userinfo">
 <img src="https://img.shields.io/github/languages/top/modmailapp/userinfo.svg?style=for-the-badge">
 </a>
 <a href="https://github.com/modmailapp/userinfo/issues">
