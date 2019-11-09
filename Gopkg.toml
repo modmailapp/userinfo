@@ -1,0 +1,20 @@
+[[constraint]]
+   name = "github.com/modmailapp/userinfo"
+   version = "1.0.0"
+
+[[constraint]]
+   name = "userinfo-api"
+   branch = "master"
+   source = "github.com/modmailapp/userinfo"
+
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/bwmarrin/discordgo"
+  version = "0.20.1"
+
+[[constraint]]
+  name = "github.com/gorilla/mux"
+  version = "1.7.3"
