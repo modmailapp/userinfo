@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/bwmarrin/discordgo"
+	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
@@ -41,6 +42,7 @@ func main() {
 
 func handleAPI(s *discordgo.Session, e *discordgo.Ready) {
 	r := mux.NewRouter()
+	corsObj:=handlers.AllowedOrigins([]string{"*"})
 
 	r.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
 
@@ -80,7 +82,7 @@ func handleAPI(s *discordgo.Session, e *discordgo.Ready) {
 		return
 	}).Methods("GET")
 
-	err := http.ListenAndServe(":2011", r)
+	err := http.ListenAndServe(":2011", handlers.CORS(corsObj)(r))
 	if err != nil {
 		log.Fatal(err)
 	}
