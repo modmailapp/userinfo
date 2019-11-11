@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/onxKhCc.png" align="center">
+  <img src="https://i.imgur.com/bvXSCgs.png" align="center">
   <br>
   <strong><i>A simple API to retrieve user's information from discord</i></strong>
   <br>
